@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@nivo/pie > lodash':
+        patched: '2022-10-05T15:59:08.255Z'
+    - '@google-cloud/storage > async > lodash':
+        patched: '2022-10-05T15:59:08.255Z'
+    - xml-encryption > async > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - '@nivo/line > @nivo/scales > lodash':
+        patched: '2022-10-05T15:59:08.255Z'
+    - googleapis > async > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - mailparser > html-to-text > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > @babel/traverse > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - juice > web-resource-inliner > async > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - '@nivo/pie > @nivo/tooltip > @nivo/core > lodash':
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+    - styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
+  'npm:lodash:20180130':
+    - node-cas > cheerio > lodash:
+        patched: '2022-10-05T15:59:08.255Z'
